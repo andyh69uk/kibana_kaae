@@ -1,7 +1,7 @@
 {
   "name": "kaae",
   "version": "0.5.0",
-  "kibana.version": "5.0.0-rc1",
+  "kibana.version": "5.0.1",
   "description": "Kibana Alert & Report App for Elasticsearch",
   "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
   "repository": {
@@ -20,7 +20,8 @@
     "mustache": "*",
     "emailjs": "*",
     "node-slack": "*",
-    "node-horseman": "*"
+    "node-horseman": "*",
+    "sum-time": "*"
   },
   "devDependencies": {
     "babel-eslint": "4.1.8",
