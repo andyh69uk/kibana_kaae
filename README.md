@@ -39,20 +39,24 @@ Boss wants to see charts and reports? KaaE can grab timed snapshots of Kibana da
 
 #### Snapshot Plugin Install
 <pre>
-/opt/kibana/bin/kibana plugin --install kaae -u https://github.com/elasticfence/kaae/releases/download/snapshot/kaae-latest.tar.gz
+NOT YET AVAILABLE FOR 5.0
 </pre>
 
-#### Dev Plugin Install
-<pre>
-git clone https://github.com/elasticfence/kaae
-cd kaae && npm install && npm run package
-/opt/kibana/bin/kibana plugin --install kaae -u file://`pwd`/kaae-latest.tar.gz
-</pre>
+### Installation Steps
+```
+cd KIBANA5_HOME/plugins
+# If the plugins folder does not exist, change to installedPlugins and continue.
+git clone -b 5.0 --single-branch https://github.com/sirensolutions/kaae.git kaae
+cd kaae
+npm install
+```
+Important: If you have any problem with the plugin version (like a warning message "it expected Kibana version "x.x.x", and found "5.0.0-rc1"") only change the value of the "version" tag on the KAAE package.json to your Kibana version
 
-#### Dev Plugin Remove
-<pre>
-/opt/kibana/bin/kibana plugin -r kaae
-</pre>
+### Unistall:
+```
+cd KIBANA5_HOME
+rm -rf plugins/kaae/
+```
 
 ## Configuration & Usage
 
