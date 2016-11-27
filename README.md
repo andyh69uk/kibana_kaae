@@ -22,7 +22,7 @@
 
 ### Kibana Plugin: Kaae Spy
 The Kaae integrated Kibana plug-in extends the default Spy functionality to shape new prototype Watchers based on Visualize queries, and providing them to Kaae for fine editing and deployment.
-<img src="http://i.imgur.com/4lDTOVR.png" />
+
 
 ---
 
