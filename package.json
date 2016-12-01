@@ -1,12 +1,12 @@
 {
   "name": "kaae",
   "version": "0.5.0",
-  "kibana.version": "5.0.1",
+  "kibana.version": "5.0.2",
   "description": "Kibana Alert & Report App for Elasticsearch",
   "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/elasticfence/kaae.git"
+    "url": "http://github.com/sirensolutions/sentinl.git"
   },
   "main": "index.js",
   "scripts": {
