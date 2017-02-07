@@ -1,0 +1,35 @@
+{
+  "es": {
+    "timefield":	"@timestamp",
+    "default_index":	"watcher",
+    "type": 		"watch",
+    "alarm_index":	"watcher_alarms"
+  },
+  "kaae": {
+    	"history": 	20,
+      "results": 50
+  },
+  "settings" : {
+    	"email" : {
+    	   "user":	"username",
+    	   "password":	"password",
+    	   "host":	"smtp.server.com",
+    	   "ssl":	true,
+    	   "active":	false
+    	},
+    	"slack" : {
+    	   "username":	"KAAE",
+    	   "hook":	"https://hooks.slack.com/services/<token>",
+    	   "channel":	"#kaae",
+    	   "active": 	false
+    	},
+      "report" : {
+         "tmp_path" : "/tmp/",
+         "active": 	false
+      },
+      "pushapps" : {
+        "api_key" : "<pushapps API Key>",
+        "active":	false
+    }
+  }
+}
